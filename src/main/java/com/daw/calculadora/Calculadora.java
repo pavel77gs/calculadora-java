@@ -44,4 +44,9 @@ public class Calculadora {
         
         return num;
     }
+    
+    // Calcula el módulo del primer número dividido entre el segundo número
+    public double modulo(double a, double b){
+        return a % b;
+    }
 }
