@@ -52,4 +52,9 @@ public class Calculadora {
         }
         return a % b;
     }
+    
+    // Calcula la raiz cuadrada del primer número
+    public double raiz_cuadrada(double a){
+        return Math.sqrt(a);
+    }
 }
