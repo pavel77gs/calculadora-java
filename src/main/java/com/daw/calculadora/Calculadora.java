@@ -33,4 +33,28 @@ public class Calculadora {
         }
         return a / b;
     }
+    
+    // Potencia la base por el exponente
+    public double potencia(double base, double exponente){
+        double num = base;
+        
+        for (int i=1; i< exponente;i++){
+        num*=base;
+        }
+        
+        return num;
+    }
+    
+    // Calcula el módulo del primer número dividido entre el segundo número
+    public double modulo(double a, double b){
+        if (b == 0){
+            throw new IllegalArgumentException("No se puede sacar el cociente de una división entre 0");
+        }
+        return a % b;
+    }
+    
+    // Calcula la raiz cuadrada del primer número
+    public double raiz_cuadrada(double a){
+        return Math.sqrt(a);
+    }
 }
