@@ -38,7 +38,7 @@ public class Calculadora {
     public double potencia(double base, double exponente){
         double num = base;
         
-        for (int i=1; i<= exponente;i++){
+        for (int i=1; i< exponente;i++){
         num*=base;
         }
         
