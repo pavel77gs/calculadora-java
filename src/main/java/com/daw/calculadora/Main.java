@@ -15,25 +15,12 @@ public class Main {
         double numero2 = 5;
         System.out.println("CALCULADORA JAVA");
         System.out.println("----------------");
-        System.out.println(
-                "Suma: " + calculadora.sumar(numero1, numero2)
-        );
-        System.out.println(
-                "Resta: " + calculadora.restar(numero1, numero2)
-        );
-        System.out.println(
-                "Multiplicación: "
-                + calculadora.multiplicar(numero1, numero2)
-        );
-        System.out.println(
-                "División: " + calculadora.dividir(numero1, numero2)
-        );
-        
+        System.out.println("Suma: " + calculadora.sumar(numero1, numero2));
+        System.out.println("Resta: " + calculadora.restar(numero1, numero2));
+        System.out.println("Multiplicación: " + calculadora.multiplicar(numero1, numero2));
+        System.out.println("División: " + calculadora.dividir(numero1, numero2));
         System.out.println("Potencia: " + calculadora.potencia(2, 3));
-        
         System.out.println("Módulo: " + calculadora.modulo(10, 2));
-        
         System.out.println("Raíz cuadrada: " + calculadora.raiz_cuadrada(16));
-        
     }
 }
