@@ -20,5 +20,5 @@ Requisitos:
 - JDK 21
 
 Como compilar:
-	1. Abre el proyecto en Netbeans con JDK 21 instalado previamente.
-	2. Dale al botón "Build Project"
+1. Abre el proyecto en Netbeans con JDK 21 instalado previamente.
+2. Dale al botón "Build Project"
