@@ -28,5 +28,10 @@ public class Main {
         System.out.println(
                 "División: " + calculadora.dividir(numero1, numero2)
         );
+        
+        System.out.println("Potencia: " + calculadora.potencia(2, 3));
+        
+        System.out.println("Módulo: " + calculadora.modulo(10, 0));
+        
     }
 }
