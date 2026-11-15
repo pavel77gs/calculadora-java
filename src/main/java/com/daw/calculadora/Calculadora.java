@@ -47,6 +47,9 @@ public class Calculadora {
     
     // Calcula el módulo del primer número dividido entre el segundo número
     public double modulo(double a, double b){
+        if (b == 0){
+            throw new IllegalArgumentException("No se puede sacar el cociente de una división entre 0");
+        }
         return a % b;
     }
 }
